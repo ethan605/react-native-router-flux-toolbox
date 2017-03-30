@@ -12,8 +12,7 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
-// Utils
-import DeviceUtils from 'app/utils/DeviceUtils';
+const NAV_BAR_HEIGHT = Platform.select({ android : 54, ios: 44 });
 
 function renderNavButton(position, options) {
   const { iconClass: IconClass = FontAwesome, iconName, iconSize = 25, onPress } = options;
@@ -58,12 +57,12 @@ const styles = StyleSheet.create({
     marginHorizontal: -10,
     ...Platform.select({
       android: {
-        height: DeviceUtils.navBarHeight - 8,
-        width: DeviceUtils.navBarHeight - 8,
+        height: NAV_BAR_HEIGHT - 8,
+        width: NAV_BAR_HEIGHT - 8,
       },
       ios: {
-        height: DeviceUtils.navBarHeight,
-        width: DeviceUtils.navBarHeight,
+        height: NAV_BAR_HEIGHT,
+        width: NAV_BAR_HEIGHT,
       },
     }),
   },
