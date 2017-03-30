@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git"
-  },
+  "repository": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git",
   "keywords": [
     "react",
     "native",
@@ -23,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/ethan605/react-native-router-flux-toolbox/issues"
   },
-  "homepage": "https://github.com/ethan605/react-native-router-flux-toolbox#readme"
+  "homepage": "https://github.com/ethan605/react-native-router-flux-toolbox#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-native": "^0.42.3",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-vector-icons": "^4.0.0"
+  }
 }
