@@ -1,12 +1,15 @@
 {
-  "name": "react-native-router-flux-toolbox",
+  "name": "@onaclover/react-native-router-flux-toolbox",
   "version": "0.1.0",
   "description": "Box of frequently used React Native Router Flux tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git"
+  },
   "keywords": [
     "react",
     "native",
@@ -27,5 +30,6 @@
     "react-native": "^0.42.3",
     "react-native-router-flux": "^3.38.0",
     "react-native-vector-icons": "^4.0.0"
-  }
+  },
+  "devDependencies": {}
 }
