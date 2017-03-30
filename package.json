@@ -1,0 +1,27 @@
+{
+  "name": "react-native-router-flux-toolbox",
+  "version": "0.1.0",
+  "description": "Box of frequently used React Native Router Flux tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "router",
+    "flux",
+    "toolbox",
+    "reusables"
+  ],
+  "author": "Ethan N.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethan605/react-native-router-flux-toolbox/issues"
+  },
+  "homepage": "https://github.com/ethan605/react-native-router-flux-toolbox#readme"
+}
