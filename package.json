@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ethan605/react-native-router-flux-toolbox.git"
+    "url": "git+ssh://git@github.com/onaclover/react-native-router-flux-toolbox.git"
   },
   "keywords": [
     "react",
@@ -21,10 +21,15 @@
   "author": "Ethan N.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethan605/react-native-router-flux-toolbox/issues"
+    "url": "https://github.com/onaclover/react-native-router-flux-toolbox/issues"
   },
-  "homepage": "https://github.com/ethan605/react-native-router-flux-toolbox#readme",
+  "homepage": "https://github.com/onaclover/react-native-router-flux-toolbox#readme",
   "dependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.18.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-react-native": "^2.3.1",
     "lodash": "^4.17.4",
     "react": "^15.4.2",
     "react-native": "^0.42.3",
