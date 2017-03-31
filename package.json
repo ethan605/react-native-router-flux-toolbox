@@ -1,6 +1,6 @@
 {
   "name": "@onaclover/react-native-router-flux-toolbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Box of frequently used React Native Router Flux tools",
   "main": "index.js",
   "scripts": {
